@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "682695704699",
+    "firebase_url": "https://image-6a9fa-default-rtdb.firebaseio.com",
+    "project_id": "image-6a9fa",
+    "storage_bucket": "image-6a9fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682695704699:android:fdda793312366aea72e2de",
+        "android_client_info": {
+          "package_name": "com.example.playandlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682695704699-kgn602jngvvgalvsn2u1ut69fkkjsrhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNVo8yiZNH7pJwOcYr1I9bG8Iyyyvo8Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682695704699-kgn602jngvvgalvsn2u1ut69fkkjsrhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682695704699:android:1673316545b8c10072e2de",
+        "android_client_info": {
+          "package_name": "com.example.playnlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682695704699-kgn602jngvvgalvsn2u1ut69fkkjsrhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNVo8yiZNH7pJwOcYr1I9bG8Iyyyvo8Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682695704699-kgn602jngvvgalvsn2u1ut69fkkjsrhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682695704699:android:968dea3d00ac609a72e2de",
+        "android_client_info": {
+          "package_name": "com.example.watchandlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682695704699-kgn602jngvvgalvsn2u1ut69fkkjsrhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNVo8yiZNH7pJwOcYr1I9bG8Iyyyvo8Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682695704699-kgn602jngvvgalvsn2u1ut69fkkjsrhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

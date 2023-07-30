@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    tools:context=".alphabet_learn">
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="183dp"
+        android:layout_height="176dp"
+        android:onClick="logoimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.259"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417"
+        app:srcCompat="@drawable/acopy" />
+
+    <ImageView
+        android:id="@+id/r_img"
+        android:layout_width="217dp"
+        android:layout_height="173dp"
+        android:onClick="rimg"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/logo_img"
+        app:layout_constraintTop_toTopOf="@+id/logo_img"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/apple" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:background="#FFC107"
+        android:fontFamily="serif"
+        android:text="Apple"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:background="@drawable/next_button_icon_png_32"
+        android:scaleType="fitXY"
+        app:circularflow_radiusInDP="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/prev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="68dp"
+        android:layout_height="60dp"
+        android:background="@drawable/hopstarter_button_button_previous_256"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="74dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/play_button_web_audio_icon_green_stock_vector_illustration_of_design__green__118054478_removebg_preview"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/prev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/r_img"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
